@@ -1,5 +1,3 @@
-something is here. something after that
-There is more stuff on this line.
-another line
-adding something in here
-something
+#this file was a complete mess
+#i'm redoing the whole thing
+and here are the results
