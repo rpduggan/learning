@@ -1,0 +1,14 @@
+git config # set up and view user name and such when first start using git
+git init # initialise a repository for either new or existing projects
+	done inside of a folder you want to become a repository
+git clone some_repo_URL # copies a repository from remote to local
+git status # check changes that have been made to files/folders in repository
+git add file/folder_name # adds none staged items so git will start tracking it
+git commit -a -m"message here" # commits changes to git localy
+	-a # commits all changes, you can also specify specific items you want commited by typing its name out instead of -a
+	-m"" # have to write a message on what was changed, if left blank it will open text editor for you to write message and save 
+git pull # pulls most recent remote version to local, should be done only in master branch
+git push origin branch_name # allows you to push local changes to remote location
+git branch # shows list of all branches for a repository
+git checkout branch_name # changes which branch you are working on
+git checkout -b branch_name # creates new branch for you to work on
